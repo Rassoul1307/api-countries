@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contries</title>
+</head>
+<body>
+    <div class="d-flex banner justify-content-between px-3 shadow p-3 mb-5 rounded">
+        <div class="h4">Where in the world?</div>
+        <div class="h6 dark-mode"><span><i class="fa-solid fa-moon me-2"></i></span>Dark Mode</div>
+    </div>
+
+    <div class="d-flex justify-content-between px-3 gap-3 flex-wrap">
+        <div class="inputBox_container col-md-3 col-12">
+            <svg class="search_icon" id="searchButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" alt="search icon">
+              <path d="M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z">
+              </path>
+            </svg>
+            <input class="inputBox" id="inputBox" type="text" placeholder="Rechercher un pays">
+        </div>
+        <div class="col-md-3 col-12 selectRegion">
+            <select class="form-select" aria-label="Default select example" id="regionSelect">
+                <option class="all" selected>Filter by Region</option>
+                <option value="africa">Africa</option>
+                <option value="america">America</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="oceania">Oceania</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="contries d-flex flex-wrap justify-content-around mt-5"></div>
+    <div class="contries-africa d-flex flex-wrap justify-content-around mt-5"></div>
+    <div class="contries-europe d-flex flex-wrap justify-content-around mt-5"></div>
+    <div class="contries-asia d-flex flex-wrap justify-content-around mt-5"></div>
+    <div class="contries-america d-flex flex-wrap justify-content-around mt-5"></div>
+    <div class="contries-oceania d-flex flex-wrap justify-content-around mt-5"></div>
+    
+
+
+
+    <script src="https://kit.fontawesome.com/3e56bd9026.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

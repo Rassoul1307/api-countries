@@ -1,0 +1,111 @@
+.boximg{
+    width: 260px;
+    height: 150px;
+}
+.boximg img{
+    width: 100%;
+    height: 100%
+}
+.box-contry{
+    box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.12);
+    height: 300px;
+    width: 260px;
+    background-color: white;
+    /* padding: 30px; */
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.box-contry .boxtext{
+    color: black;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.box-contry .boxtext h6{
+    font-weight: 900;
+    font-size: 14px;
+}
+.box-contry .boxtext p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.noneall{
+    display: none;
+}
+
+#country-details{
+    margin: auto;
+    /* background-color: rgba(250, 242, 215, 0.539); */
+    text-align: center;
+    /* border-radius: 20px; */
+    padding: 20px 0px;
+    border-radius: 41px;
+    background: linear-gradient(145deg, #fdeffb, #d4c9d4);
+    box-shadow:  23px 23px 47px #b8aeb7,
+             -23px -23px 47px #ffffff;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.rainbow-hover {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fad1fa;
+    background-color: #2B3044;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    position: relative;
+    line-height: 24px;
+    border-radius: 9px;
+    box-shadow: 0px 1px 2px #2B3044,
+      0px 4px 16px #2B3044;
+    transform-style: preserve-3d;
+    transform: scale(var(--s, 1)) perspective(600px)
+      rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+    perspective: 600px;
+    transition: transform 0.1s;
+  }
+  
+  
+  .rainbow-hover:active {
+    transition: 0.3s;
+    transform: scale(0.93);
+  }
+
+  .dark-mode{
+    cursor: pointer;
+  }
+
+  .inputBox_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: fit-content;
+    border: 2px solid #2b304431;
+    background-color: whitesmoke;
+    border-radius: 0.8em;
+    overflow: hidden;
+  }
+  
+  .search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #abb2bf;
+  }
+  
+  .inputBox {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+  }
+  
+  ::placeholder {
+    color: #abb2bf;
+  }
